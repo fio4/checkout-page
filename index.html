@@ -1,95 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="master-max flex all-title ml-245">
+    <h1>Checkout</h1>
+  </header>
+  <section class="master-max flex ml-auto column-reverse">
+      <section class="content-bloque-1">
+        <div>
+          <p class="title mb-5">Contact infomation</p>
+          <form>
+            <label for="email" class="title-input">E-mail</label> <br>
+           <div class="p-relative mt-5">
+             <input type="text" class="input-cover text-input" placeholder="Enter your email..." minlength="6" required> 
+            <span class="material-icons p-absolute icon">
+                email
+            </span>
+           </div> <br>
+          </form>
+  
+          <form>
+            <label for="phone" class="title-input">Phone</label> <br>
+            <div class="p-relative mt-5">
+              <input type="text" class="input-cover text-input" placeholder="Enter your phone..." minlength="6" required>
+              <span class="material-icons p-absolute icon">
+                local_phone
+                </span> 
+            </div> <br>
+          </form>
+        </div>
+  
+        <div class="content-form-shipping">
+          <p class="title mb-5">Shipping address</p>
+          <form>
+            <label for="name" class="title-input">Full name</label> <br>
+            <div class="p-relative mt-5">
+              <input type="text" class="input-cover text-input"  value="Rodney Cotton" minlength="6" required>
+              <span class="material-icons p-absolute icon">
+                account_circle
+                </span> 
+            </div> <br>
+          </form>
+  
+          <form>
+            <label for="adress" class="title-input">Address</label> <br>
+            <div class="p-relative mt-5">
+              <input type="text" class="input-cover text-input" placeholder="Your address.."> 
+              <span class="material-icons p-absolute icon">
+                home
+                </span>
+            </div> <br>
+          </form>
+  
+          <form>
+            <label for="city" class="title-input">City</label> <br>
+            <div class="p-relative mt-5">
+              <input type="text" class="input-cover text-input" placeholder="Your city.."  minlength="6" required> 
+              <span class="material-icons p-absolute icon">
+                location_city
+                </span>
+            </div> <br>
+          </form>
+  
+          <div class="flex">
+            
+              <div>
+                <form>
+                <label for="country" class="title-input">Country</label> <br>
+                <div class="p-relative mt-5">
+                <span class="material-icons p-absolute icon">
+                  public
+                </span>
+                <select name="" id="" class="input-cover-50 text-input mt-6">
+                    <option>Your country..</option>
+                    <option>Perú</option>
+                    <option>Colombia</option>
+                    <option>México</option> 
+                </select>
+              </div>
+              </div>
+                  
+              <div class="mleft-20">
+                <form>
+                  <label for="postal-code" class="title-input">Postal code</label>
+                  <div class="p-relative mt-5">
+                    <input type="text" class="input-cover-50 text-input" placeholder="Your postal code.." />
+                    <span class="material-icons p-absolute icon">
+                      markunread_mailbox
+                      </span>
+                  </div>
+                </form>
+                  </div>
+                </div> <br>
+              </div>
+              
+            </form>
+  
+            
+          </div>
+          <label for="" class="text-checkbox"> <input type="checkbox"> Save this information for next time </label>
+        </div>
+        <form class="button">
+          <button onclick="alert('Su envío ha sido exitoso')">Continue</button>
+        </form>
+    </section>
 
-    <link rel="icon" href="devchallenges.png" />
-
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+    <section class="content-bloques">
+      <div class="content-bloque-2">
+        <div class="flex mb-20">
+          <div>
+            <img src="./photo1.png" alt="">
+          </div>
+          <div class="ml-20">
+            <p class="title-bloq-2">Vintage Backbag</p>
+            <div class="flex">
+              <p class="precio-venta-style">$54.99</p>
+              <p class="precio-tachado-style">$94.99</p>
+            </div>
+            <div class="flex content-contador-compras">
+              <div>
+                <a class="boton-contador" href="#">-</a>
+              </div>
+              <div>
+                <p class="number-style">1</p>
+              </div>
+              <div>
+                <a class="boton-contador" href="#">+</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <div>
+            <img src="./photo2.png" alt="">
+          </div>
+          <div class="ml-20">
+            <p class="title-bloq-2">Levi Shoes</p>
+            <div class="flex">
+              <p class="precio-venta-style">$74.99</p>
+              <p class="precio-tachado-style">$124.99</p>
+            </div>
+            <div class="flex content-contador-compras">
+              <div>
+                <span>
+                  <a class="boton-contador" href="#">-</a>
+                </span>
+              </div>
+              <div>
+                <p class="number-style">1</p>
+              </div>
+              <div>
+                <span>
+                  <a class="boton-contador" href="#">+</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-60">
+        <div>
+          <div class="flex">
+            <p class="title ml-0">Shipping</p>
+            <p class="precio-style">$19</p>
+          </div>
+          <hr>
+          <div class="flex">
+            <p class="title ml-0">Total</p>
+            <p class="precio-style">$148.98</p>
+          </div>
+        </div>
       </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
-  </body>
+      
+    </section>
+  </section>
+  <footer>
+    <p class="footer">Fiorella Herrera @ DevChallenges.io</p>
+  </footer>
+</body>
 </html>

@@ -1,0 +1,297 @@
+*{
+    box-sizing: border-box;
+}
+
+p{
+    margin: auto;
+}
+
+img{
+    max-width: 80%;
+    border-radius: 12px;
+}
+
+button{
+    width: 154px;
+    height: 48px;
+    background: #F2994A;
+    border-radius: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 1px solid;
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+.master-max{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-width: 350px;
+    justify-content: space-between;
+}
+
+/* .master-max{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+} */
+.content-bloques{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-bloque-1{
+    max-width: 500px;
+    padding: 25px;
+}
+.all-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    color: #4E5150;
+}
+
+.content-form-shipping{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+
+.title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+}
+
+.title-input{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #4F4F4F;
+}
+
+.text-input{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.flex{
+    display: flex;
+}
+
+.content-bloque-2{
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 25px;
+    background: #F2F2F2;
+}
+
+.input-cover{
+    max-width: 450px;
+    width: 100%;
+    padding-left: 37px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    font-size: 12px;
+}
+
+.input-cover-50{
+    max-width: 210px;
+    width: 100%;
+    padding-left: 35px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.mr-30{
+    margin-right: 30px;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.p-absolute{
+    position: absolute;
+}
+
+.icon{
+    left: 11px;
+    top: 17px;
+    font-size: 21px;
+    color: #828282;s
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-checkbox{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #4F4F4F;
+}
+
+.footer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #A9A9A9;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.title-bloq-2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #4E5150;
+    padding-bottom: 7px;
+}
+
+.precio-venta-style{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #F2994A;
+}
+
+.precio-tachado-style{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration-line: line-through;
+    color: #4E5150;
+    margin-left: 15px;
+}
+
+.mb-20{
+    margin-bottom: 25px;
+}
+
+.content-contador-compras{
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.boton-contador{
+    text-decoration: none;
+    border: 1px solid transparent;
+    background: #E0E0E0;
+    border-radius: 4px;
+    padding: 0 6px;
+}
+
+.seleccionador-flecha{
+    border: 1px solid transparent;
+    background: #E0E0E0;
+    border-radius: 4px;
+}
+
+.mleft-20{
+    margin-left: 20px;
+}
+
+.mt-6{
+    margin-top: 6px;
+}
+
+.ml-20{
+    margin-right: 60px;
+}
+
+.number-style{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333333;
+}
+
+.precio-style{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+    margin-right: 10px;
+}
+
+.mt-5{
+    padding-top: 5px;
+}
+
+.ml-0{
+    margin-left: 0;
+}
+
+.mt-60{
+    margin-top: 60px;
+}
+
+
+
+@media (max-width: 920px){
+    .column-reverse{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 500px){
+    .content-bloque-2{
+        width: auto;
+    }
+    .input-cover{
+        width: 330px;
+    }
+
+    .input-cover-50{
+        width: 148px;
+    }
+
+}
